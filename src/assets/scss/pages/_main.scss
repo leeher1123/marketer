@@ -1,0 +1,119 @@
+// section visual
+
+.visual {
+  background: #3498da;
+  .container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  .text {
+    width: 50%;
+    h1 {
+      color: #fff;
+      font-weight: 500;
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+    .btn-more {
+      width: 164px;
+      height: 53px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      text-transform: uppercase;
+      transition: border-color .4s;
+      &:hover {
+        background-color: rgb(104,104,104);
+        border-color: rgb(104,104,104);
+      }
+    }
+  }
+  .image {
+    width: 50%;
+    text-align: right;
+  }
+}
+
+// sponsor
+.sponsor {
+  padding: 30px 0;
+  background: #f6f7f8;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsor-item {
+    opacity: .3;
+    transition: .4s;
+    padding: 0 25px;
+    &:hover {
+      opacity: .8;
+    }
+    img {
+      height: 70px;
+    }
+  }
+}
+
+// section amazing features
+.amazing-features {
+    padding: 80px 0;
+    background: #fff;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    .section-title {
+      text-align: center;
+      margin-bottom: 25px;
+      h2 {
+        font-size: 32px;
+        color: #2e362f;
+        margin-bottom: 15px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 16px;
+        color: #7c8595;
+        line-height: 1.6;
+      }
+    }
+    .grid {
+      display: flex;
+      .grid-item {
+        width: 33.3333%;
+        padding: 15px;
+      }
+    }
+    .item {
+      text-align: center;
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 20px;
+        color: #2F362F;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 15px;
+        color: #7C8595;
+        line-height: 1.6;
+      }
+    }
+
+}
