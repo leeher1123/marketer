@@ -45,4 +45,174 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+img {
+  max-width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.visual {
+  background: #3498da; }
+  .visual .container {
+    height: 500px;
+    display: flex;
+    align-items: center; }
+  .visual .text {
+    width: 50%; }
+    .visual .text h1 {
+      color: #fff;
+      font-weight: 500;
+      font-size: 38px;
+      margin-bottom: 20px; }
+    .visual .text p {
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px; }
+    .visual .text .btn-more {
+      width: 164px;
+      height: 53px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      text-transform: uppercase;
+      transition: border-color .4s; }
+      .visual .text .btn-more:hover {
+        background-color: #686868;
+        border-color: #686868; }
+  .visual .image {
+    width: 50%;
+    text-align: right; }
+
+.sponsor {
+  padding: 30px 0;
+  background: #f6f7f8; }
+  .sponsor .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .sponsor .sponsor-item {
+    opacity: .3;
+    transition: .4s;
+    padding: 0 25px; }
+    .sponsor .sponsor-item:hover {
+      opacity: .8; }
+    .sponsor .sponsor-item img {
+      height: 70px; }
+
+.amazing-features {
+  padding: 80px 0;
+  background: #fff;
+  border-top: 1px solid #eaeaea;
+  display: flex; }
+  .amazing-features .section-title {
+    text-align: center;
+    margin-bottom: 25px; }
+    .amazing-features .section-title h2 {
+      font-size: 32px;
+      color: #2e362f;
+      margin-bottom: 15px;
+      font-weight: 500; }
+    .amazing-features .section-title p {
+      font-size: 16px;
+      color: #7c8595;
+      line-height: 1.6; }
+  .amazing-features .grid {
+    display: flex; }
+    .amazing-features .grid .grid-item {
+      width: 33.3333%;
+      padding: 15px; }
+  .amazing-features .item {
+    text-align: center; }
+    .amazing-features .item img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px; }
+    .amazing-features .item h3 {
+      font-size: 20px;
+      color: #2F362F;
+      margin-bottom: 10px;
+      font-weight: 500; }
+    .amazing-features .item p {
+      font-size: 15px;
+      color: #7C8595;
+      line-height: 1.6; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.app-header .top-header {
+  background: #343434; }
+  .app-header .top-header .container {
+    display: flex;
+    justify-content: space-between; }
+  .app-header .top-header .sns {
+    display: flex; }
+    .app-header .top-header .sns a {
+      width: 41px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #fff;
+      border-right: 1px solid #525252;
+      transition: .4s; }
+      .app-header .top-header .sns a:hover.twitter {
+        background: #18f; }
+      .app-header .top-header .sns a:hover.pinterest {
+        background: #ff1111; }
+      .app-header .top-header .sns a:hover.facebook {
+        background: #0528c4; }
+      .app-header .top-header .sns a:hover.instagram {
+        background: #b811ff; }
+      .app-header .top-header .sns a:hover.skype {
+        background: rgba(67, 165, 255, 0.85); }
+  .app-header .top-header .contact {
+    display: flex;
+    align-items: center; }
+    .app-header .top-header .contact p {
+      color: #fff; }
+      .app-header .top-header .contact p + p {
+        margin-left: 30px; }
+      .app-header .top-header .contact p i {
+        margin-right: 8px;
+        font-size: 20px; }
+.app-header .main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.app-header .main-header .logo {
+  display: block; }
+  .app-header .main-header .logo img {
+    width: 172px; }
+.app-header .main-header nav {
+  display: flex; }
+  .app-header .main-header nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: color .3s;
+    text-transform: capitalize; }
+    .app-header .main-header nav .nav-item .nav-link:hover {
+      color: #18f; }
+    .app-header .main-header nav .nav-item .nav-link i {
+      margin-left: 4px; }
+
 /*# sourceMappingURL=style.css.map */
